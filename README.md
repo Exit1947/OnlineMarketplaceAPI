@@ -1,2 +1,2 @@
 # OnlineMarketplaceAPI
-Realizing api for online marketplace.
+Realizing api for online marketplace using Spring Boot framework.

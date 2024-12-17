@@ -1,0 +1,35 @@
+package com.onlineShop.models.Users.RolePrivilege;
+
+public enum PrivilegeType {
+
+    //ROLES
+    ROLE_ADMIN,
+    ROLE_MODERATOR,
+    ROLE_SALES_REP,
+    ROLE_END_USER,
+
+    //AUTHORITIES (PRIVILEGES)
+     //BASE END_USER
+    BUY_PRODUCT,
+     //PRODUCT
+    CREATE_PRODUCT,
+    UPDATE_PRODUCT,
+    DELETE_PRODUCT,
+     //USER ENTITY
+     //MODERATOR
+    CREATE_MODERATOR,
+    GET_MODERATOR,
+    UPDATE_MODERATOR,
+    DELETE_MODERATOR,
+     //SALES_REP
+    CREATE_SALES_REP,
+    GET_SALES_REP,
+    UPDATE_SALES_REP,
+    DELETE_SALES_REP,
+     //END_USER
+    CREATE_END_USER,
+    GET_END_USER,
+    UPDATE_END_USER,
+    DELETE_END_USER,
+
+}
